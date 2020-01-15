@@ -119,3 +119,16 @@ div.abt{
 	width: 90%;
 	margin: 0px 49px 0px;
 }
+div.service{
+	display: inline-block;
+	width: 29%;
+	margin: 30px 10px 30px 45px;
+}
+div.product{
+	display: inline-block;
+	width: 29%;
+}
+div.vision{
+	display: inline-block;
+	width:29%;
+}
