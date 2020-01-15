@@ -64,3 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: auto;
+	width: 876px;
+	border: 1px solid black;
+}
+.fa div{
+	display: inline-block;
+	width: 50%;
+}
+title{
+	display: inline-block;
+}
