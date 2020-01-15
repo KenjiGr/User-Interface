@@ -100,14 +100,22 @@ div.title{
 	padding: 50px;
 }
 /*main section styling*/
+hr { 
+	width:90%; 
+	height:3px; 
+	background:black;
+}
 div.feat{
 	display: inline-block;
-	width: 49%;
+	width: 40%;
+	margin: 30px 10px 30px 45px;
 }
 div.abt{
 	display: inline-block;
-	width: 49%;
+	width: 40%;
+	margin: 30px 10px 30px 45px;
 }
-title{
-	display: inline-block;
+.middle-img{
+	width: 90%;
+	margin: 0px 49px 0px;
 }
