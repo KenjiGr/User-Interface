@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5 {
 /*Header Styling*/
 header nav{
 	display: inline-block;
-	margin-top: 25px;
-	margin-bottom: 20px;
+	margin: 25px 30px 0px;
+    width: 65%;
 }
 header nav a{
 	margin: 0 30px;
@@ -78,12 +78,24 @@ header nav a{
 }
 .logo{
 	display: inline-block;
-	margin-left: 40px;
 	margin-top: 30px;
+}
+/*title styling*/
+h1{
+	font-size: 80px;
+}
+div.title{
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+}
+.code{
+	display: inline-block;
+	width: 50%;
 }
 body{
 	margin: auto;
-	width: 876px;
+	width: 1000px;
 	border: 1px solid black;
 }
 div.feat{
