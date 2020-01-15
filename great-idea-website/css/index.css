@@ -64,12 +64,33 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*Header Styling*/
+header nav{
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+header nav a{
+	margin: 0 30px;
+	color: grey;
+	text-decoration: none;
+	font-size: 14px;
+}
+.logo{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 30px;
+}
 body{
 	margin: auto;
 	width: 876px;
 	border: 1px solid black;
 }
-.fa div{
+div.feat{
+	display: inline-block;
+	width: 50%;
+}
+div.abt{
 	display: inline-block;
 	width: 50%;
 }
