@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: auto;
+	width: 1000px;
+	border: 1px solid black;
+}
 /*Header Styling*/
 header nav{
 	display: inline-block;
@@ -86,25 +91,22 @@ h1{
 }
 div.title{
 	text-align: center;
-	width: 50%;
+	width: 49%;
 	display: inline-block;
 }
 .code{
 	display: inline-block;
-	width: 50%;
+	width: 49%;
+	padding: 50px;
 }
-body{
-	margin: auto;
-	width: 1000px;
-	border: 1px solid black;
-}
+/*main section styling*/
 div.feat{
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 }
 div.abt{
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 }
 title{
 	display: inline-block;
