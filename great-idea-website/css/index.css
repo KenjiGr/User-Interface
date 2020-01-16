@@ -93,6 +93,7 @@ header nav a{
 }
 .navbar a:hover{
 	color: rgb(0, 0, 92);
+	animation: Highlight 2s;
 }
 .navbar a {
 	float: left;
@@ -119,6 +120,23 @@ button{
 	height: 30px;
 	border: 1px solid black;
 }
+button:hover{
+	animation: Highlight 10s;
+}
+@keyframes Highlight {
+	0%{
+	  transform: scale(1);
+	}
+	20%{
+	  transform: scale(1.2)
+	}
+	60%{
+		transform: scale(1.2)
+	  }
+	100%{
+		transform: scale(1.2)
+	}
+  }
 .code{
 	display: inline-block;
 	width: 49%;
