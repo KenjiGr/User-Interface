@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 body{
 	margin: auto;
 	width: 1000px;
-	border: 1px solid black;
 }
 /*Header Styling*/
 header nav{
@@ -91,7 +90,7 @@ h1{
 }
 div.title{
 	text-align: center;
-	width: 49%;
+	width: 50%;
 	display: inline-block;
 }
 .code{
@@ -131,4 +130,15 @@ div.product{
 div.vision{
 	display: inline-block;
 	width:29%;
+}
+/*contact info/footer*/
+div.contact{
+	width: 16%;
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+footer{
+	text-align: center;
+	margin: 50px 0px;
 }
